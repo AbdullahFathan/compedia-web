@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <nav className="navbar bg-white shadow-custom-shadow px-4 xl:px-12">
       <div className="navbar-start">
-        <a className="h-[48px] w-[145px] bg-primary p-2 rounded flex items-center justify-center">
+        <a className="h-[48px] w-[145px] bg-primary p-2 rounded">
           <img src={Images.Logo} alt="logo" />
         </a>
       </div>
@@ -19,7 +19,7 @@ const Navbar = () => {
 
       {/*Navbar Mobile */}
 
-      <div className="dropdown bg-white flex md:hidden flex-1 justify-end items-end z-10 relative">
+      <div className="dropdown flex md:hidden flex-1 justify-end items-end z-10 relative">
         <button
           type="button"
           onClick={() => {
@@ -46,9 +46,9 @@ const Navbar = () => {
         <div
           className={`${
             open ? "flex" : "hidden"
-          } absolute top-12 right-0  px-5 w-screen shadow-custom-shadow hover:bg-primary`}
+          } absolute top-12 right-0 bg-neutural-white px-5 w-screen shadow-custom-shadow hover:bg-primary`}
         >
-          <div className="navbar-center flex flex-col ">
+          <div className="navbar-center flex flex-col">
             <ul className="menu menu-sm dropdown-content">
               <NavbarItem />
             </ul>

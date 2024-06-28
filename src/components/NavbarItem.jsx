@@ -2,7 +2,10 @@ import React from "react";
 
 const NavbarItem = () => {
   return (
-    <div className="bg-neutural-white w-screen">
+    <div
+      className="bg-neutural-white flex flex-col md:flex-row w-screen md:w-fit
+    "
+    >
       <li>
         <a className="navbarItem">Beranda</a>
       </li>
