@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h2 {
+    @apply text-4xl text-center font-semibold text-textBlack;
+  }
+  h4 {
+    @apply text-base text-neutral80;
+  }
+}
+
+@layer utilities {
+  .navbarItem {
+    @apply text-base text-neutral70;
+  }
+
+  .custom-input {
+    border-radius: 8px;
+    border: 1px solid var(--Neutral-50, #cbc4c6);
+    background: var(--Neutral-10, #fff);
+  }
+
+  .custom-input:focus,
+  .custom-input:active {
+    border: 1px solid var(--Neutral-50, #cbc4c6);
+    outline: none;
+    box-shadow: none;
+  }
+}
