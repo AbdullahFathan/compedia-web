@@ -13,7 +13,7 @@
 
 @layer utilities {
   .navbarItem {
-    @apply text-base text-neutral70;
+    @apply text-base text-neutral70 bg-neutural-white;
   }
 
   .custom-input {

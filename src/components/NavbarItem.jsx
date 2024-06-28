@@ -2,11 +2,8 @@ import React from "react";
 
 const NavbarItem = () => {
   return (
-    <div
-      className="bg-neutural-white flex flex-col md:flex-row w-screen md:w-fit
-    "
-    >
-      <li>
+    <>
+      <li className="bg-neutural-white">
         <a className="navbarItem">Beranda</a>
       </li>
       <li className="navbarItem">
@@ -57,7 +54,7 @@ const NavbarItem = () => {
       <li className="navbarItem">
         <a>Testimoni</a>
       </li>
-    </div>
+    </>
   );
 };
 
