@@ -3,14 +3,17 @@ import Images from "../../../assets";
 
 const Hero = () => {
   return (
-    <div className="py-16 px-8 md:px-28  min-h-screen">
-      <div className="hero-content flex-col justify-between items-center lg:flex-row-reverse">
-        <img src={Images.Hero} className="max-w-sm rounded-lg px-4 md:px-0 " />
+    <section className="mt-20 mx-16 md:mx-32 ">
+      <div className="flex flex-col justify-between items-center xl:flex-row-reverse">
+        <img
+          src={Images.Hero}
+          className="max-w-md rounded-lg mx-4 xl:mx-0 mb-10 xl:mb-0 hidden xl:flex   "
+        />
         <div className="max-w-xl">
           <h1 className="text-5xl font-bold text-primary">
             Maksimalkan Potensi,
-            <br /> Raih Mimpi Sebagai{" "}
-            <span className="text-orange-400">Juara!</span>
+            <br /> Raih Mimpi Sebagai
+            <span className="text-orange-400">{" Juara!"}</span>
           </h1>
           <p className="py-6 text-neutral70">
             Hadirkan Kesetaraan pada Pendidikan dengan Personalisasi Karakter
@@ -21,7 +24,7 @@ const Hero = () => {
           </button>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
