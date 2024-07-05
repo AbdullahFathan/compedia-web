@@ -5,6 +5,7 @@ import Hero from "../components/Hero";
 import Introduction from "../components/Introduction";
 import VisionMission from "../components/VisionMission";
 import WhyUs from "../components/WhyUs";
+import MainServices from "../components/MainServices";
 
 const LandingPage = () => {
   return (
@@ -14,6 +15,7 @@ const LandingPage = () => {
       <Introduction />
       <VisionMission />
       <WhyUs />
+      <MainServices />
       <Fotter />
     </>
   );
