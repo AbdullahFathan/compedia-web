@@ -3,6 +3,7 @@ import Navbar from "../../../components/Navbar";
 import Fotter from "../../../components/Fotter";
 import Hero from "../components/Hero";
 import Introduction from "../components/Introduction";
+import VisionMission from "../components/VisionMission";
 
 const LandingPage = () => {
   return (
@@ -10,6 +11,7 @@ const LandingPage = () => {
       <Navbar />
       <Hero />
       <Introduction />
+      <VisionMission />
       <Fotter />
     </>
   );
