@@ -1,5 +1,5 @@
 export const mahasiswaList = [
-  "Personalisasi Lomba dengan Tes Karakter",
+  "Personalisasi Lomba dengan Tes Keminatan Lomb",
   "Cari & Filter Lomba",
   "Booking Mentor Sesuai Bidang",
   "Komunitas Lomba Sesuai Bidang",
