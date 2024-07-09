@@ -7,6 +7,7 @@ import VisionMission from "../components/VisionMission";
 import WhyUs from "../components/WhyUs";
 import MainServices from "../components/MainServices";
 import EkosistemLomba from "../components/EkosistemLomba";
+import BidangLomba from "../components/BidangLomba";
 
 const LandingPage = () => {
   return (
@@ -18,6 +19,7 @@ const LandingPage = () => {
       <WhyUs />
       <MainServices />
       <EkosistemLomba />
+      <BidangLomba />
       <Fotter />
     </>
   );
