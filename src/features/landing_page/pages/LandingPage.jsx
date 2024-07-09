@@ -8,6 +8,9 @@ import WhyUs from "../components/WhyUs";
 import MainServices from "../components/MainServices";
 import EkosistemLomba from "../components/EkosistemLomba";
 import BidangLomba from "../components/BidangLomba";
+import StatistikPrestasi from "../components/StatistikPrestasi";
+import BestMentor from "../components/BestMentor";
+import FeedbackUser from "../components/FeedbackUser";
 
 const LandingPage = () => {
   return (
@@ -20,6 +23,9 @@ const LandingPage = () => {
       <MainServices />
       <EkosistemLomba />
       <BidangLomba />
+      <StatistikPrestasi />
+      <BestMentor />
+      <FeedbackUser />
       <Fotter />
     </>
   );
