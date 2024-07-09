@@ -45,9 +45,14 @@ const MobileApps = () => {
         <button type="button" className="btn btn-primary text-white">
           Download Aplikasi Disini!
         </button>
-        <button className="btn btn-outline btn-primary">
+
+        <a
+          role="button"
+          href="https://youtu.be/JKwux7BFIVE"
+          className="btn btn-outline btn-primary"
+        >
           Lihat Demo Product
-        </button>
+        </a>
       </div>
     </div>
   );

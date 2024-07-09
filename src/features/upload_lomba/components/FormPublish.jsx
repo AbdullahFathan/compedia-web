@@ -59,7 +59,7 @@ const FormPublish = () => {
               className="label cursor-pointer flex items-center"
             >
               <input type="checkbox" className="checkbox checkbox-primary" />
-              <span className="label-text ml-2">{item}</span>
+              <span className="label-text ml-2">{item.name}</span>
             </label>
           ))}
         </div>

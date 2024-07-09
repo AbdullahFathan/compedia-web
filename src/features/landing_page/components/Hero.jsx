@@ -19,9 +19,14 @@ const Hero = () => {
             Hadirkan Kesetaraan pada Pendidikan dengan Personalisasi Karakter
             pada Kompetisi, Mentoring Online, & Komunitas Online dalam Aplikasi!
           </p>
-          <button className="btn btn-primary text-white">
+
+          <a
+            role="button"
+            href="https://www.instagram.com/compedia_id?igsh=MWZqb2V0NGIxZ245Ng=="
+            className="btn btn-primary text-white"
+          >
             Support Kami Disini!
-          </button>
+          </a>
         </div>
       </div>
     </section>
